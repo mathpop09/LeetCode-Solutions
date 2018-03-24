@@ -9,7 +9,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
     for(int i = 0; i < sizeOf; i++) {
       for(int j = i + 1; j < sizeOf; j++) {
         if (nums[i] + nums[j] == target) {
-          first = i;
+          first = i; 
           second = j;
           // break on first Solution
           break;
