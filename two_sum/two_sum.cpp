@@ -12,12 +12,11 @@ vector<int> twoSum(vector<int>& nums, int target) {
           first = i; 
           second = j;
           // break on first Solution
-          break;
+          vector<int> answer = {first, second};
+          return answer;
         }
       }
     }
-    vector<int> answer = {second, first};
-    return answer;
 }
 
 int main() {
